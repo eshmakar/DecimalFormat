@@ -7,7 +7,8 @@ public class DecimalFormatt {
 //DecimalFormat d = new DecimalFormat();
  // d.setMaximumFractionDigits(2); максимум сколько цифр выводить после запятой
 //  d.setMinimumFractionDigits(2); минимум сколько цифр выводить после запятой
- // System.out.println(d.format(5.9877)); 5,99
+ //d.setMaximumIntegerDigits(0); сколько цифр выводить перед запятой
+// System.out.println(d.format(5.9877)); ,99
 
 //1193. татарский (Россия): #,##0.00 ¤ -> -1 234,56 ₽ -> -1234.56
 //624. татарский (Россия): #,##0 -> -1 235 -> -1235
